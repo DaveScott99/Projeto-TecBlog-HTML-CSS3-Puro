@@ -1,0 +1,97 @@
+/** GERAL **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(246, 246, 246);
+}
+
+h1 {
+    font-size: 40pt;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+h2 {
+    color:rgb(0, 80, 97);
+    font-size: 1.7em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 87, 106);
+    transition: .2s all ease-in-out;
+}
+a:hover {
+    color: black;
+}
+
+.data-postagem {
+    display: block;
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+
+
+
+
+/** CABEÇALHO **/
+#cabec {
+    width: 100%;
+    background:  rgb(0, 45, 55);
+    height: 200px;
+    text-align: center;
+    color: white;
+}
+
+#menu {
+    font-size: 16pt;
+    padding: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#menu a:hover {
+    color: rgb(0, 167, 205);
+    text-decoration: underline;
+}
+
+
+
+
+/** CONTEÚDO **/
+#principal {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#conteudo {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#conteudo p {
+    font-size: 14pt;
+}
+
+#conteudo img {
+    width: 100%;
+    padding: 30px;
+}
+
+#rodape {
+    background: rgb(246, 246, 246);
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}

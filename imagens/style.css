@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+h1 {
+    font-size: 40pt;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(247, 195, 98);
+}
+a:hover {
+    color: white;
+    background: rgb(247, 195, 98);
+}
+
+.white {
+    color:white
+}
+
+#cabec {
+    width: 100%;
+    background: rgb(247, 195, 98);
+    height: 200px;
+    text-align: center;
+}
+
+#menu {
+    font-size: 16pt;
+    padding: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+#menu a:hover {
+    color: rgb(247, 195, 98);
+    background: white;
+}
+
+
+#conteudo {
+    width: 57vw;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens, #area-lateral {
+    background: white;
+}
+
+
+#area-postagens {
+    width: 39vw;
+    float: left;
+}
+
+
+#area-lateral {
+    width: 18em;
+    float: right;
+}
+
+
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.postagem h2 {
+    color:rgb(247, 195, 98);
+    font-size: 1.7em;
+}
+.postagem p {
+    padding-top: 15px;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+
+#link-postagem {
+    width: 100%;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.data-postagem {
+    display: block;
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+
+
+.postagem img {
+    width: 100%;
+}
+
+
+
+
+.recentes {
+    padding: 15px;
+}
+.recentes h3 {
+    background: #f2f2f2;
+    padding: 5px;
+    font-size: 18pt;
+}
+.recentes p, a {
+    padding: 5px;
+}
+
+
+
+
+#rodape {
+    background: #CCC;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
